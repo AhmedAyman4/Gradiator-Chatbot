@@ -40,7 +40,7 @@ const prompt = ai.definePrompt({
   },
   prompt: `You are a chatbot answering questions about the content of a website.
 
-  Website Content: {{{websiteContent}}}
+  Website Content: Graduation Project Library Website Content: {{{websiteContent}}}
 
   Question: {{{question}}}
 
