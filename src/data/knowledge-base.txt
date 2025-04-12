@@ -1,0 +1,116 @@
+# Gradiator Knowledge Base
+
+## Overview
+Gradiator is the official web platform dedicated to graduation projects at University of Sadat City. It serves as a comprehensive repository and management system for all aspects of final-year student projects across various departments and faculties.
+
+## Purpose
+The platform aims to streamline the graduation project process by providing a centralized location for project submissions, documentation, mentor-student interactions, and project showcasing. Gradiator enhances transparency, accessibility, and organization throughout the entire graduation project lifecycle.
+
+## Key Features
+
+### For Students
+- Project proposal submission system
+- Documentation repository for project milestones
+- Mentor communication channels
+- Resource access (guides, templates, previous projects)
+- Project timeline tracking with deadline notifications
+- Peer feedback mechanisms
+- Final submission portal
+
+### For Faculty and Mentors
+- Project approval workflow
+- Student progress monitoring
+- Feedback provision interface
+- Evaluation and grading system
+- Department-specific project guidelines management
+- Cross-departmental collaboration tools
+
+### For Administration
+- Project statistics and analytics
+- Department performance metrics
+- Archive of all graduation projects
+- Quality assessment tools
+- External reviewer assignment system
+
+## Project Lifecycle on Gradiator
+
+### 1. Idea Generation and Proposal
+- Browse project ideas suggested by faculty
+- Submit original project proposals
+- Receive initial feedback from potential mentors
+- Review and refine proposals based on feedback
+
+### 2. Project Assignment
+- Mentor matching process
+- Team formation (for group projects)
+- Official project registration
+- Initial planning and timeline establishment
+
+### 3. Project Development
+- Regular progress updates
+- Milestone submission and approval
+- Resource and reference management
+- Technical documentation storage
+
+### 4. Evaluation and Presentation
+- Pre-defense review system
+- Defense scheduling
+- Final submission requirements
+- Grading and evaluation criteria
+
+### 5. Showcase and Archive
+- Public project portfolio creation
+- Innovation recognition system
+- Industrial partner access for recruitment
+- Knowledge transfer to future students
+
+## Departments and Project Categories
+- Computer Science and Engineering
+- Electrical Engineering
+- Mechanical Engineering
+- Civil Engineering
+- Business and Management
+- Arts and Design
+- Science and Mathematics
+- Humanities and Social Sciences
+- Interdisciplinary Projects
+
+## Technical Requirements
+- Project documentation formats (PDF, DOC, PPT)
+- Code repository integration (GitHub, GitLab)
+- File size limitations
+- Supported media formats for demonstrations
+
+## Important Dates and Deadlines
+- Proposal submission deadline: [Date]
+- Mentor assignment completion: [Date]
+- Mid-term evaluation: [Date]
+- Pre-defense document submission: [Date]
+- Defense week: [Date range]
+- Final submission: [Date]
+
+## Support and Resources
+- Technical support contact: support@gradiator.[university-domain]
+- Documentation guides and templates
+- FAQ section for common questions
+- Video tutorials for platform navigation
+- Workshop schedules for project development skills
+
+## Success Metrics
+- Previous outstanding projects showcase
+- Industry-adopted projects
+- Publication-worthy research
+- Award-winning innovations
+- Entrepreneurial ventures stemming from graduation projects
+
+## Access and Authentication
+- Student login using university credentials
+- Faculty and administrator separate portals
+- External reviewer limited access system
+- Public-facing project gallery (no login required)
+
+## Privacy and Intellectual Property
+- Project ownership guidelines
+- Confidentiality options for sensitive projects
+- Copyright and patent information
+- University intellectual property policies

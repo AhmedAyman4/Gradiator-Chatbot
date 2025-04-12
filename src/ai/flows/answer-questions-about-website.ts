@@ -1,4 +1,5 @@
 'use server';
+import { readFileSync } from 'fs';
 /**
  * @fileOverview A flow that answers questions about the website using RAG.
  *
@@ -9,6 +10,9 @@
 
 import {ai} from '@/ai/ai-instance';
 import {z} from 'genkit';
+import path from 'path';
+
+
 
 const AnswerQuestionsAboutWebsiteInputSchema = z.object({
   question: z.string().describe('The question to answer about the website.'),
@@ -22,7 +26,12 @@ const AnswerQuestionsAboutWebsiteOutputSchema = z.object({
 export type AnswerQuestionsAboutWebsiteOutput = z.infer<typeof AnswerQuestionsAboutWebsiteOutputSchema>;
 
 export async function answerQuestionsAboutWebsite(input: AnswerQuestionsAboutWebsiteInput): Promise<AnswerQuestionsAboutWebsiteOutput> {
-  return answerQuestionsAboutWebsiteFlow(input);
+    const knowledgeBasePath = path.join(process.cwd(), 'src/data/knowledge-base.txt');
+    const knowledgeBaseContent = readFileSync(knowledgeBasePath, 'utf-8');
+    return answerQuestionsAboutWebsiteFlow({
+        ...input,
+        websiteContent: `${knowledgeBaseContent} ${input.websiteContent}`,
+    });
 }
 
 const prompt = ai.definePrompt({
@@ -40,7 +49,7 @@ const prompt = ai.definePrompt({
   },
   prompt: `You are a chatbot answering questions about the content of a website.
 
-  Website Content: Graduation Project Library Website Content: {{{websiteContent}}}
+  Website Content: {{{websiteContent}}}
 
   Question: {{{question}}}
 
