@@ -1,4 +1,3 @@
-
 'use client';
 
 import {useState, useEffect, useRef} from 'react';
@@ -138,7 +137,7 @@ const ChatWindow = ({
   return (
     <div className="w-96 rounded-lg bg-card shadow-xl animate-fade-in">
       <div className="flex items-center justify-between p-4 border-b border-border">
-        <h2 className="text-lg font-semibold">WebSage Chat</h2>
+        <h2 className="text-lg font-semibold">Gradiator Chatbot</h2>
         <Button onClick={onClose} variant="ghost" className="h-8 w-8 p-0">
           <icons.close className="h-4 w-4" />
           <span className="sr-only">Close Chat</span>
