@@ -419,6 +419,27 @@ If you want, I can:
 
 Here’s the full setup:
 
+![image](https://github.com/user-attachments/assets/39400766-3c74-4e55-a2ea-93f5057feee7)
+
+                   ┌────────────────────────────────────┐
+                   │        User Interface              │
+                   │  (Web / Desktop / Mobile App)      │
+                   └────────────────────────────────────┘
+                                 │
+                                 ▼
+                   ┌────────────────────────────────────┐
+                   │      .NET Web API (Backend)         │
+                   │     [Search & Upload Endpoint]      │
+                   └────────────────────────────────────┘
+                                 │
+          ┌──────────────────────┼────────────────────────┐
+          │                      │                        │
+          ▼                      ▼                        ▼
+┌──────────────────┐  ┌────────────────────┐  ┌─────────────────────────┐
+│ Cloudinary        │  │    SQL/NoSQL DB     │  │    Lucene.NET Index     │
+│ (Stores Audio)    │  │ (Stores Metadata +  │  │  (Indexes Metadata for  │
+│                   │  │ Cloudinary URL)     │  │    Search & Ranking)    │
+└──────────────────┘  └────────────────────┘  └─────────────────────────┘
 
 ---
 
